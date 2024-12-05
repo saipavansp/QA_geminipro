@@ -2,7 +2,7 @@ streamlit==1.40.2
 PyPDF2==3.0.1
 google-generativeai
 langchain==0.3.9
-faiss-cpu==1.7.4
+faiss-cpu
 python-docx==1.0.1
 beautifulsoup4==4.12.2
 requests==2.32.0
