@@ -12,4 +12,5 @@ pandas>=2.0.0
 typing-extensions>=4.5.0
 typing-inspect>=0.8.0
 pydantic>=2.5.2
+langchain-community==0.0.24
 langchain_google_genai

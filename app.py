@@ -1,9 +1,11 @@
 import streamlit as st
 from PyPDF2 import PdfReader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
+from langchain.text_splitter import RecursiveCharacterTextSplitter  # This is still from langchain
+from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI  # This is fine
+from langchain.chains.question_answering import load_qa_chain  # This is still from langchain
+from langchain.prompts import PromptTemplate  # This is still from langchain
 import google.generativeai as genai
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 import json
